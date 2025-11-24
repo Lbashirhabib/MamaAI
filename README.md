@@ -58,8 +58,8 @@ MIT License
 
 ## Contact
 For questions or collaboration inquiries, reach out to:  
-📧 yourname@example.com  
-🌐 [yourwebsite.com](http://yourwebsite.com)
+📧 bashirhabib01@gmail.com  
+
 
 ---
 
