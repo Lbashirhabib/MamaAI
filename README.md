@@ -1,10 +1,10 @@
 # 🤖 Pregnancy Risk Assessment AI
 
 ## Overview
-This AI system is designed to assess the risk level of a pregnancy—categorizing it as either **at risk** or **safe**—and provide personalized recommendations to expectant mothers. The goal is to support early intervention, informed decision-making, and ultimately reduce maternal mortality through accessible, intelligent guidance.
+This AI system is designed to assess the risk level of a pregnancy categorizing it as either **at risk** or **Medium risk** or **safe** and provide personalized recommendations to expectant mothers. The goal is to support early intervention, informed decision-making, and ultimately reduce maternal mortality through accessible, intelligent guidance.
 
 ## Features
-- 🩺 **Risk Classification**: Uses medical data inputs to determine if a pregnancy is high-risk or low-risk.
+- 🩺 **Risk Classification**: Uses medical data inputs to determine if a pregnancy is high-risk, medium risk or low-risk.
 - 💡 **Personalized Recommendations**: Offers tailored advice based on the risk level, including lifestyle changes, medical follow-ups, and emergency preparedness.
 - 📊 **Data-Driven Insights**: Leverages historical and real-time data to improve accuracy and relevance.
 - 🌍 **Accessible Support**: Designed for use in low-resource settings to empower women and healthcare providers.
@@ -14,6 +14,7 @@ This AI system is designed to assess the risk level of a pregnancy—categorizin
 2. **Risk Analysis**: The AI model processes the data using trained algorithms to classify the pregnancy as either:
    - `Safe`
    - `At Risk`
+   - 'Medium Risk'
 3. **Recommendation Engine**: Based on the classification, the system generates actionable advice, which may include:
    - Scheduling antenatal visits
    - Nutritional guidance
@@ -22,9 +23,7 @@ This AI system is designed to assess the risk level of a pregnancy—categorizin
 
 ## Technologies Used
 - Python (with libraries like scikit-learn, TensorFlow or PyTorch)
-- RESTful API for integration
-- Frontend: React or Flutter (optional)
-- Cloud deployment: Azure, AWS, or GCP
+- Cloud deployment: streamlit
 
 ## Installation
 ```bash
@@ -59,8 +58,3 @@ MIT License
 ## Contact
 For questions or collaboration inquiries, reach out to:  
 📧 bashirhabib01@gmail.com  
-
-
----
-
-Would you like help writing documentation for the API endpoints or training the model?
